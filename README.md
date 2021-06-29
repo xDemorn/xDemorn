@@ -8,7 +8,7 @@ On my free time I'm working on a simple 2D game called **Spater**, which is a to
 
 I have 2 years experience with **Angular** and **TypeScript** with many projects that I worked with.
 
-```ts
+```js
 import { Component, OnInit } from '@angular/core';
 import { User } from '@models/user.model';
 import { Status } from '@models/status.model';
