@@ -38,18 +38,18 @@ export class ReadMeComponent implements OnInit {
 
     // Creating the status object
     this.status = {
-      "status": 'online',
-      "learning": ['HTML5', 'CSS3', 'Angular', 'TypeScript'],
-      "interests": ['Movies', 'Gaming', 'TV Shows', 'Zombies', 'Programming', 'Learning']
+      "is_online": true,
+      "learning": [HTML5, CSS3, Angular, TypeScript],
+      "interests": [Movies, Gaming, 'V Shows, Zombies, Programming, Learning]
     }
 
     // Creating the skills object
     this.skills = {
-      "languages": ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Java', 'C#', 'JSON', 'MySQL'],
-      "ide": ['Visual Studio Code', 'Netbeans', 'Android Studio', 'Unity', 'Unreal Engine'],
-      "frameworks": ['Angular', 'Bootstrap', 'Node.JS', 'React Native'],
-      "os": ['Windows', 'Linux', 'Android'],
-      "others": ['Microsoft Word', 'Microsoft Excel', 'Git', 'GitHub']
+      "languages": [HTML5, CSS3, JavaScript, TypeScript, Java, C#, JSON, MySQL],
+      "ide": [VisualStudioCode, Netbeans, AndroidStudio, Unity, UnrealEngine],
+      "frameworks": [Angular, Bootstrap, NodeJS, ReactNative],
+      "os": [Windows, Linux, Android],
+      "others": [MicrosoftWord, MicrosoftExcel, Git, GitHub]
     }
 
     // Printing the status and skills object in the console to see if everythink is okay
@@ -83,7 +83,7 @@ export class ReadMeComponent implements OnInit {
 
 <img alt="twitter" src="https://img.shields.io/badge/Windows-MSI_Prestige_15_A10SC-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
-## Contact me by
+## Contact
 
 Feel free to contact me with any of the following platforms.
 
