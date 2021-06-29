@@ -10,7 +10,7 @@ I have 2 years experience with **Angular** and **TypeScript** with many projects
 
 ```ts
 import { Component, OnInit } from '@angular/core';
-import { MODELS } from '@models/models-list.model';
+import { User } from '@models/user.model';
 import { Status } from '@models/status.model';
 import { Skill } from '@models/skill.model';
 import { Developer } from '@models/developer.model';
@@ -23,9 +23,9 @@ import { Developer } from '@models/developer.model';
 
 export class ReadMeComponent implements OnInit {
 
-  user: MODELS.User;
-  status: MODELS.Status;
-  skills: MODELS.Skill;
+  user: User;
+  status: Status;
+  skills: Skill;
 
   dev: Developer;
 
