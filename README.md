@@ -8,7 +8,7 @@ On my free time I'm working on a simple 2D game called **Spater**, which is a to
 
 I have 2 years experience with **Angular** and **TypeScript** with many projects that I worked with.
 
-```js
+```ts
 import { Component, OnInit } from '@angular/core';
 import { User } from '@models/user.model';
 import { Status } from '@models/status.model';
@@ -38,7 +38,7 @@ export class ReadMeComponent implements OnInit {
     this.status = {
       "is_online": true,
       "learning": [HTML5, CSS3, Angular, TypeScript],
-      "interests": [Movies, Gaming, 'V Shows, Zombies, Programming, Learning]
+      "interests": [Movies, Gaming, TV Shows, Zombies, Programming, Learning]
     }
 
     this.skills = {
