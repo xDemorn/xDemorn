@@ -84,7 +84,7 @@ Feel free to contact me with any of the following platforms.
 <a href="mailto:jaworski.miki98@gmail.com" >
 <img alt="linked-in" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="https://www.linkedin.com/in/mikolaj-jaworski-developer/" target="_blank">
+<a href="https://www.linkedin.com/in/mikolaj-jaworski-developer/" target="_blank" rel="noopener noreferrer">
 <img alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://twitter.com/miki_jaworski" target="_blank">
