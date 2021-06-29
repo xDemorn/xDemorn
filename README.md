@@ -37,21 +37,21 @@ export class ReadMeComponent implements OnInit {
 
     this.status = {
       "is_online": true,
-      "learning": [HTML5, CSS3, Angular, TypeScript],
-      "interests": [Movies, Gaming, TV Shows, Zombies, Programming, Learning]
+      "learning": [ HTML5, CSS3, Angular, TypeScript ],
+      "interests": [ Movies, Gaming, TV Shows, Zombies, Programming, Learning ]
     }
 
     this.skills = {
-      "languages": [HTML5, CSS3, JavaScript, TypeScript, Java, C#, JSON, MySQL],
-      "ide": [VisualStudioCode, Netbeans, AndroidStudio, Unity, UnrealEngine],
-      "frameworks": [Angular, Bootstrap, NodeJS, ReactNative],
-      "os": [Windows, Linux, Android],
-      "others": [MicrosoftWord, MicrosoftExcel, Git, GitHub]
+      "languages": [ HTML5, CSS3, JavaScript, TypeScript, Java, C#, JSON, MySQL ],
+      "ide": [ VisualStudioCode, Netbeans, AndroidStudio, Unity, UnrealEngine ],
+      "frameworks": [ Angular, Bootstrap, NodeJS, ReactNative ],
+      "os": [ Windows, Linux, Android ],
+      "others": [ MicrosoftWord, MicrosoftExcel, Git, GitHub ]
     }
 
-    document.write(status, skills);
+    document.write(this.status, this.skills);
 
-    this.dev = new Developer(user);
+    this.dev = new Developer(this.user);
 
     while(dev.isCoding() && dev.isStuck()) {
       dev.openBrowser();
