@@ -87,16 +87,16 @@ Feel free to contact me with any of the following platforms.
 <a href="https://www.linkedin.com/in/mikolaj-jaworski-developer/" target="_blank">
 <img alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://twitter.com/miki_jaworski" >
+<a href="https://twitter.com/miki_jaworski" target="_blank">
 <img alt="twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
-<a href="https://steamcommunity.com/id/xdemorn/" >
+<a href="https://steamcommunity.com/id/xdemorn/" target="_blank">
 <img alt="twitter" src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" />
 </a>
-<a href="https://xdemorn.itch.io/" >
+<a href="https://xdemorn.itch.io/" target="_blank">
 <img alt="twitter" src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white" />
 </a>
-<a href="https://dev.to/xdemorn" >
+<a href="https://dev.to/xdemorn" target="_blank">
 <img alt="twitter" src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
 </a>
 
