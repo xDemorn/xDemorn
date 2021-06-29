@@ -106,4 +106,4 @@ Do you like what you see? Consider droping a follow!
 
 Made with ❤️ and internet searches.
 
-# \</Hello World> 👋
+# \</Hello World>
