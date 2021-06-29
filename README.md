@@ -102,8 +102,6 @@ Feel free to contact me with any of the following platforms.
 
 Do you like what you see? Consider droping a follow!
 
-<img alt="Language Stats" src="https://img.shields.io/github/followers/xdemorn.svg?style=social&label=Follow&maxAge=2592000" />
-
 Made with ❤️ and internet searches.
 
 # \</Hello World>
