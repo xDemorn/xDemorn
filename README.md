@@ -33,17 +33,14 @@ export class ReadMeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    // Creating my user
     this.user = new User('Mikolaj', 'Jaworski');
 
-    // Creating the status object
     this.status = {
       "is_online": true,
       "learning": [HTML5, CSS3, Angular, TypeScript],
       "interests": [Movies, Gaming, 'V Shows, Zombies, Programming, Learning]
     }
 
-    // Creating the skills object
     this.skills = {
       "languages": [HTML5, CSS3, JavaScript, TypeScript, Java, C#, JSON, MySQL],
       "ide": [VisualStudioCode, Netbeans, AndroidStudio, Unity, UnrealEngine],
@@ -52,13 +49,10 @@ export class ReadMeComponent implements OnInit {
       "others": [MicrosoftWord, MicrosoftExcel, Git, GitHub]
     }
 
-    // Printing the status and skills object in the console to see if everythink is okay
     document.write(status, skills);
 
-    // Creating a developer with my user
     this.dev = new Developer(user);
 
-    // Checking if I'm stuck with some coding problems
     while(dev.isCoding() && dev.isStuck()) {
       dev.openBrowser();
       dev.openStackOverFlow();
