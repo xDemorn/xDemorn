@@ -3,7 +3,6 @@
 
 My name is **Mikolaj Jaworski** and I'm a Junior **Front End Developer**, **Mobile Apps Developer** and **Game Developer** with a 2 year experience.
 
-I'm searching for a job in the city of **Girona** (in Spain, Catalonia) or nearby.
 On my free time I'm working on a simple 2D game called **Spater**, which is a top down space shooter based on **Warblade**, which I played a lot when I was younger.
 
 I have 2 years experience with **Angular** and **TypeScript** with many projects that I worked with.
@@ -23,11 +22,11 @@ import { Developer } from '@models/developer.model';
 
 export class ReadMeComponent implements OnInit {
 
-  user: User;
-  status: Status;
-  skills: Skill;
+  private user: User;
+  private status: Status;
+  private skills: Skill;
 
-  dev: Developer;
+  private dev: Developer;
 
   constructor() { }
 
@@ -36,22 +35,24 @@ export class ReadMeComponent implements OnInit {
     this.user = new User('Mikolaj', 'Jaworski');
 
     this.status = {
-      "is_online": true,
-      "learning": [ HTML5, CSS3, Angular, TypeScript ],
-      "interests": [ Movies, Gaming, TV Shows, Zombies, Programming, Learning ]
+      is_online: true,
+      learning: [ 'HTML5', 'CSS3', 'Angular', 'TypeScript' ],
+      interests: [ 'Movies', 'Gaming', 'TV Shows', 'Zombies', 'Programming', 'Learning' ]
     }
 
     this.skills = {
-      "languages": [ HTML5, CSS3, JavaScript, TypeScript, Java, C#, JSON, MySQL ],
-      "ide": [ VisualStudioCode, Netbeans, AndroidStudio, Unity, UnrealEngine ],
-      "frameworks": [ Angular, Bootstrap, NodeJS, ReactNative ],
-      "os": [ Windows, Linux, Android ],
-      "others": [ MicrosoftWord, MicrosoftExcel, Git, GitHub ]
+      languages: [ 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Java', 'C#', 'JSON', 'MySQL' ],
+      ide: [ 'Visual Studio Code', 'Netbeans', 'Android Studio', 'Unity', 'Unreal Engine' ],
+      frameworks: [ 'Angular', 'Bootstrap', 'NodeJS', 'React Native' ],
+      os: [ 'Windows', 'Linux', 'Android' ],
+      others: [ 'Microsoft Word', 'Microsoft Excel', 'Git', 'GitHub' ]
     }
 
-    document.write(this.status, this.skills);
-
     this.dev = new Developer(this.user);
+    this.dev.updateStatus(this.status);
+    this.dev.addSkills(this.skills);
+    
+    this.dev.writeDataInDocument(document);
 
     while(dev.isCoding() && dev.isStuck()) {
       dev.openBrowser();
