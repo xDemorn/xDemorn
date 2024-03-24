@@ -1,7 +1,7 @@
 ﻿
 # \<Hello World> 👋
 
-My name is **Mikolaj Jaworski** and I'm a Junior **Front End Developer**, **Mobile Apps Developer** and **Game Developer** with a 2 year experience.
+My name is **Mikolaj Jaworski** and I'm a **Front End Developer**, **Mobile Apps Developer** and **Game Developer** with a 2 year experience.
 
 On my free time I'm working on a simple 2D game called **Spater**, which is a top down space shooter based on **Warblade**, which I played a lot when I was younger.
 
