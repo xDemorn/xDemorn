@@ -3,9 +3,7 @@
 
 My name is **Mikolaj Jaworski** and I'm a **Front End Developer**, **Mobile Apps Developer** and **Game Developer** with a 2 year experience.
 
-On my free time I'm working on a simple 2D game called **Spater**, which is a top down space shooter based on **Warblade**, which I played a lot when I was younger.
-
-I have 2 years experience with **Angular** and **TypeScript** with many projects that I worked with.
+I have 6+ years experience with **Angular** and **TypeScript** with many projects that I worked on.
 
 ```ts
 import { Component, OnInit } from '@angular/core';
