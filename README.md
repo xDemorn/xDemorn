@@ -1,9 +1,9 @@
 ﻿
 # \<Hello World> 👋
 
-My name is **Mikolaj Jaworski** and I'm a **Front End Developer**, **Mobile Apps Developer** and **Game Developer** with a 2 year experience.
+My name is **Mikolaj Jaworski** and I'm a **Front End Developer**, **Mobile Apps Developer** and **Game Developer**.
 
-I have 6+ years experience with **Angular** and **TypeScript** with many projects that I worked on.
+I have 6+ years experience with **Angular**, 2+ years with React and 1+ year with ArcGIS Experience Builder.
 
 ```ts
 import { Component, OnInit } from '@angular/core';
@@ -98,8 +98,6 @@ Feel free to contact me with any of the following platforms.
 <a href="https://dev.to/xdemorn">
 <img alt="twitter" src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
 </a>
-
-Do you like what you see? Consider droping a follow!
 
 Made with ❤️ and internet searches.
 
