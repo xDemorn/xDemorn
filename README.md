@@ -67,14 +67,14 @@ export class ReadMeComponent implements OnInit {
 
 - Mainly for gaming and game developing.
 
-<img alt="twitter" src="https://img.shields.io/badge/AMD-Radeon_RX_5700_XT-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
-<img alt="twitter" src="https://img.shields.io/badge/AMD-Ryzen_7_3800X-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
+<img alt="twitter" src="https://img.shields.io/badge/NVIDIA-RTX_3090_FE-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img alt="twitter" src="https://img.shields.io/badge/AMD-Ryzen_7_5800X3D-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
 
 ### Laptop
 
-- Mainly only for education and work, sometimes for netflix and youtube.
+- Mainly for school, sometimes for netflix, youtube and some music.
 
-<img alt="twitter" src="https://img.shields.io/badge/Windows-MSI_Prestige_15_A10SC-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img alt="twitter" src="https://img.shields.io/badge/macOS-MacBook_Air_15-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
 ## Contact
 
