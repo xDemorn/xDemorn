@@ -39,7 +39,7 @@ export class ReadMeComponent implements OnInit {
     }
 
     this.skills = {
-      languages: [ 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Java', 'C#', 'JSON', 'MySQL' ],
+      languages: [ 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Java', 'C#', 'JSON', 'MySQL', 'C++' ],
       ide: [ 'Visual Studio Code', 'Netbeans', 'Android Studio', 'Unity', 'Unreal Engine' ],
       frameworks: [ 'Angular', 'Bootstrap', 'NodeJS', 'React Native' ],
       os: [ 'Windows', 'Linux', 'Android' ],
